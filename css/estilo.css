@@ -1,0 +1,180 @@
+/*--formatação geral--*/
+body{
+	font-family: Roboto, Ubuntu, "Open Sans", sans-serif;
+}
+h1, h2, h3{
+	margin: 0;
+	font-family: Ubuntu, Roboto, "Open Sans", sans-serif;
+	font-weight: 700;
+}
+
+p{
+	font-family: "Open Sans", Ubuntu, Roboto, sans-serif;
+}
+
+.container{
+	width: 100%;
+}
+
+/*--cabeçalho ou barra de navegação--*/
+
+.logo img{
+	border-radius: 0%;
+}
+
+nav{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #5EB0AB;
+	padding: 10px;
+
+}
+
+nav ul{
+	list-style: none;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+}
+
+nav ul li{
+	text-align: center;
+	width: 100%;
+	font-size: 1.5em;
+	padding: 2%;
+
+}
+
+nav ul li a{
+	display: inline-block;
+	padding: 10px 0;
+	width: 100%;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+/*--header--*/
+
+header{
+	background-image: url(../img/fundo.jpeg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 300px;
+
+
+
+}
+
+header p{
+	margin-bottom: 2em;
+	font-size: 1.5em;
+}
+
+.botao{
+	color: #ffffff;
+	text-decoration: none;
+	background-color: #000000;
+	padding: 10px 30px;
+	border-radius: 5%;
+}
+
+/*sobre*/
+
+#sobre{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	background-color: #5EB0AB;
+	color: #ffffff;
+}
+
+#sobre h2{
+	margin-top: 20px;
+	font-size: 2em;
+
+}
+.foto img{
+	width: 60%;
+}
+
+.foto{
+	float: left;
+	width: 50%;
+}
+
+.texto{
+	float: right;
+	width: 50%;
+}
+
+
+
+
+@media only screen and (min-device-width: 900px) {
+/*--cabeçalho ou barra de  navegação--*/
+
+nav{
+	flex-direction: row;
+	justify-content: space-around;
+
+}
+
+nav ul{
+	flex-direction: row;
+	width: 70%;
+
+}
+
+/*--header--*/
+
+header{
+	height: 200px;
+	height: 20vh;
+	justify-content: center;
+
+
+}
+
+/*--sobre--*/
+
+#sobre{
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	height: 90vh;
+	justify-content: center;
+	min-height: 80vh;
+}
+
+#sobre h2{
+	text-align: center;
+	width: 100%;
+}
+
+#sobre div{
+	flex-grow: 1;
+	flex-basis: 300px;
+	
+}
+
+.texto{
+	float: right;
+	padding: 0 5em;
+
+}
+
+.foto{
+	padding: 0 30px;
+}
+
+}
