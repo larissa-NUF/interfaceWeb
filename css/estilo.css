@@ -191,6 +191,97 @@ header p{
  	padding-left: 15px;
  	line-height: 3.5;
 }
+
+.proj div{
+	align-items: center;
+	margin:0;
+	padding: 20px;
+	margin: 20px;
+}
+
+ 
+.proj img:hover{
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	
+}
+
+#hobby{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+	width:100%;
+}
+
+#hobby h2{
+	margin-bottom: 20px;
+	margin-top: 20px;
+	font-size: 2em;
+	text-align: center;
+}
+
+.hobby{
+	width: 80%;
+	align-items: center;
+	text-align: center;
+}
+
+.hobby h3{
+	font-size: 1.5em;
+	margin-top: 30px;
+	margin-bottom: 14px;
+}
+
+#contato{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	background-color: #5EB0AB;
+	width:100%;
+}
+
+#contato h2{
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	font-size: 2em;
+	text-align: center;
+	margin-top: 20px;
+}
+
+#contato > p{
+	margin-bottom: 20px;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+#contato a{
+	text-decoration: none;
+	text-align: center;
+	color: #ffffff;
+}
+
+footer{
+	text-align: center;
+	width: 100%;
+	background-color: #000000;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #ffffff;
+
+}
+
+
+
+
+
+
+
  
 
 
@@ -292,5 +383,36 @@ header{
 	text-align: center;
 
 
+}
+
+.proj{
+	padding:0.3%;
+}
+
+.edit{
+	flex-direction:row;
+	display: inline-block;
+	width: 40%;
+
+}
+.edit2 div{
+	float: right;
+}
+
+#contato{
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	max-width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	max-height: 40vh;
+	width: 100%;
+}
+
+
+#contato p{
+	width: 100%;
+	text-align: center;
 }
 }
