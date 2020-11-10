@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+/*responsivo*/
+/*menu*/
+
+
+@media(min-width:800px){
+	
+	
+	#bt_menu:checked ~ .menu{
+		margin-left: 0;	}
+	
+	.menu{
+		flex-direction: column;
+	}
+	
+	.menu ul li{
+		width: 150px;
+		float: left;
+		
+	}
+	
+	
+	
+	label[for="bt_menu"]{
+		display: none;
+	}
+	
+	
+	
+	
+	
+}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+

@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+/*--cabeçalho ou barra de navegação--*/
+
+
+.logo{
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	background-color: #0a0a0a;
+	color: #fff;
+	
+	align-items: center;
+}
+
+.menu{
+	display: flex;
+	background-color: #0A0A0A;
+	width: 100%;
+	height: 50px;
+	flex-direction: column;
+	margin-top: 5px;
+	margin-left: -100%;
+	transition: all .4s;
+}
+
+.menu ul{
+	list-style: none;
+	position: relative;
+	
+	
+	
+	
+}
+
+.menu ul li{
+	width: 100%;
+	float: none;
+		
+	
+	
+	
+	
+}
+
+.menu li a{
+	padding: 15px;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	background-color: #0a0a0a;
+	color: #fff;
+	height: 20px;
+	align-items: center;
+
+}
+
+.menu a:hover{
+	background-color: #FFFFFF;
+	color: #3D34AD;
+}
+
+label[for="bt_menu"]{
+	padding: 5px;
+	background-color: #0A0A0A;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 30px;
+	cursor: pointer;
+	width: 30px;
+	height: 30px;
+	display: block;
+	
+	
+	
+}
+
+#bt_menu{
+		display: none;
+}
+
+#bt_menu:checked ~ .menu{
+		margin-left: 0;	}
+
+
+
+
+
+
+
